@@ -1,0 +1,30 @@
+.footer {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-footer {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+
+    &:hover {
+        background-color: #fff;
+        color: var(--DarkText);
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .footer {
+        margin: 0;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}

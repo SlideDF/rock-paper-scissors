@@ -1,0 +1,1 @@
+.App{height:100%;display:flex;flex-direction:column;justify-content:space-between;align-items:center;background:var(--Background)}@media screen and (min-width: 1366px){.App{justify-content:initial}}
